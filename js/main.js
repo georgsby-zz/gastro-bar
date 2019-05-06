@@ -168,7 +168,7 @@ $(document).ready(function(){
     $('.fancybox').fancybox();
 
     //РљРѕСЂР·РёРЅР° 
-    $(document).on('click','.product_to_basket',function(){ //РћС‚РїСЂР°РІРєР° С‚РѕРІР°СЂР° РІ РєРѕСЂР·РёРЅСѓ
+    $(document).on('click','.product_to_basket_cart',function(){ //РћС‚РїСЂР°РІРєР° С‚РѕРІР°СЂР° РІ РєРѕСЂР·РёРЅСѓ
         var _data = $(this).attr('id');
         $.ajax({
             url: location.href,
