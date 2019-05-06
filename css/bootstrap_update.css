@@ -1,0 +1,171 @@
+
+.btn-dark {
+  color: #f3f3f3;
+  background-color: #444444;
+  border-color: #f3f3f3;
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark.focus,
+.btn-dark:active,
+.btn-dark.active,
+.open > .dropdown-toggle.btn-dark {
+  color: #444;
+  background-color: #f3f3f3;
+  border-color: #444;
+}
+.btn-dark:active,
+.btn-dark.active,
+.open > .dropdown-toggle.btn-dark {
+  background-image: none;
+}
+.btn-dark.disabled,
+.btn-dark[disabled],
+fieldset[disabled] .btn-dark,
+.btn-dark.disabled:hover,
+.btn-dark[disabled]:hover,
+fieldset[disabled] .btn-dark:hover,
+.btn-dark.disabled:focus,
+.btn-dark[disabled]:focus,
+fieldset[disabled] .btn-dark:focus,
+.btn-dark.disabled.focus,
+.btn-dark[disabled].focus,
+fieldset[disabled] .btn-dark.focus,
+.btn-dark.disabled:active,
+.btn-dark[disabled]:active,
+fieldset[disabled] .btn-dark:active,
+.btn-dark.disabled.active,
+.btn-dark[disabled].active,
+fieldset[disabled] .btn-dark.active {
+  background-color: #444444;
+  border-color: #f3f3f3;
+}
+.btn-light .badge {
+  color: #444444;
+  background-color: #f3f3f3;
+}
+
+.btn-light {
+  color: #444444;
+  background-color: #f3f3f3;
+  border-color: #444444;
+}
+.btn-light:hover,
+.btn-light:focus,
+.btn-light.focus,
+.btn-light:active,
+.btn-light.active,
+.open > .dropdown-toggle.btn-light {
+  color: #f3f3f3;
+  background-color: #444444;
+  border-color: #f3f3f3;
+}
+.btn-light:active,
+.btn-light.active,
+.open > .dropdown-toggle.btn-light {
+  background-image: none;
+}
+.btn-light.disabled,
+.btn-light[disabled],
+fieldset[disabled] .btn-light,
+.btn-light.disabled:hover,
+.btn-light[disabled]:hover,
+fieldset[disabled] .btn-light:hover,
+.btn-light.disabled:focus,
+.btn-light[disabled]:focus,
+fieldset[disabled] .btn-light:focus,
+.btn-light.disabled.focus,
+.btn-light[disabled].focus,
+fieldset[disabled] .btn-light.focus,
+.btn-light.disabled:active,
+.btn-light[disabled]:active,
+fieldset[disabled] .btn-light:active,
+.btn-light.disabled.active,
+.btn-light[disabled].active,
+fieldset[disabled] .btn-light.active {
+  background-color: #f3f3f3;
+  border-color: #444444;
+}
+.btn-light .badge {
+  color: #444444;
+  background-color: #f3f3f3;
+}
+
+
+
+
+
+.btn-red {
+  font-size:17px;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+  color: #fafafa;
+  background: rgb(218,79,79); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(218,79,79,1) 0%, rgba(155,42,42,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(218,79,79,1)), color-stop(100%,rgba(155,42,42,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(218,79,79,1) 0%,rgba(155,42,42,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(218,79,79,1) 0%,rgba(155,42,42,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(218,79,79,1) 0%,rgba(155,42,42,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(218,79,79,1) 0%,rgba(155,42,42,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da4f4f', endColorstr='#9b2a2a',GradientType=0 ); /* IE6-9 */
+}
+.btn-red:hover,
+.btn-red:focus,
+.btn-red.focus,
+.btn-red:active,
+.btn-red.active,
+.open > .dropdown-toggle.btn-red {
+  color: #fafafa;
+  background: rgb(155,42,42); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(155,42,42,1) 0%, rgba(218,79,79,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,42,42,1)), color-stop(100%,rgba(218,79,79,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b2a2a', endColorstr='#da4f4f',GradientType=0 ); /* IE6-9 */
+}
+.btn-red:active,
+.btn-red.active,
+.open > .dropdown-toggle.btn-red {
+  background-image: none;
+}
+.btn-red.disabled,
+.btn-red[disabled],
+fieldset[disabled] .btn-red,
+.btn-red.disabled:hover,
+.btn-red[disabled]:hover,
+fieldset[disabled] .btn-red:hover,
+.btn-red.disabled:focus,
+.btn-red[disabled]:focus,
+fieldset[disabled] .btn-red:focus,
+.btn-red.disabled.focus,
+.btn-red[disabled].focus,
+fieldset[disabled] .btn-red.focus,
+.btn-red.disabled:active,
+.btn-red[disabled]:active,
+fieldset[disabled] .btn-red:active,
+.btn-red.disabled.active,
+.btn-red[disabled].active,
+fieldset[disabled] .btn-red.active {
+  color: #fafafa;
+  background: rgb(155,42,42); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(155,42,42,1) 0%, rgba(218,79,79,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,42,42,1)), color-stop(100%,rgba(218,79,79,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b2a2a', endColorstr='#da4f4f',GradientType=0 ); /* IE6-9 */
+}
+.btn-red .badge {
+  color: #fafafa;
+  background: rgb(155,42,42); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(155,42,42,1) 0%, rgba(218,79,79,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,42,42,1)), color-stop(100%,rgba(218,79,79,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(155,42,42,1) 0%,rgba(218,79,79,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b2a2a', endColorstr='#da4f4f',GradientType=0 ); /* IE6-9 */
+}
