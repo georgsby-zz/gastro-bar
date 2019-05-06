@@ -212,10 +212,10 @@ $(document).ready(function(){
         $.ajax({
             url: "https://georgsby.github.io/gastro-bar/salatyi/",
             data:"ajax=buy&"+"id="+_data,
-            success:function(json){
+            success:function(_json){
+                console.log(_json, '_json')
+                var json = jQuery.parseJSON(_json.toString());
                 console.log(json, 'json')
-                // var json = jQuery.stringify(_json);
-                console.log(json.ack, 'ack')
                 if(json.ack == "Success"){                   
                     var imgtodrag = $(_IB).eq(0);
                     var cart = $('.CardWrap');
