@@ -210,9 +210,10 @@ $(document).ready(function(){
         console.log(_data, 'data')
         var _IB = '#IB' + _data;
         $.ajax({
-            url: location.href,
+            url: "https://georgsby.github.io/gastro-bar/salatyi/",
             data:"ajax=buy&"+"id="+_data,
             success:function(_json){
+                console.log(_json, '_json')
                 var json = jQuery.parseJSON(_json);
                 console.log(json, 'json')
                 if(json.ack == "Success"){                   
