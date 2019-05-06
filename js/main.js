@@ -168,7 +168,7 @@ $(document).ready(function(){
     $('.fancybox').fancybox();
 
     //РљРѕСЂР·РёРЅР° 
-    $(document).on('click','.product_to_basket_cart',function(){ //РћС‚РїСЂР°РІРєР° С‚РѕРІР°СЂР° РІ РєРѕСЂР·РёРЅСѓ
+    $(document).on('click','.product_to_basket',function(){ //РћС‚РїСЂР°РІРєР° С‚РѕРІР°СЂР° РІ РєРѕСЂР·РёРЅСѓ
         var _data = $(this).attr('id');
         $.ajax({
             url: location.href,
@@ -207,12 +207,14 @@ $(document).ready(function(){
 
     $(document).on('click','.product_to_basket_cart',function(){ //РћС‚РїСЂР°РІРєР° С‚РѕРІР°СЂР° РІ РєРѕСЂР·РёРЅСѓ
         var _data = ($(this).attr('id')).substr(5);
+        console.log(_data, 'data')
         var _IB = '#IB' + _data;
         $.ajax({
             url: location.href,
             data:"ajax=buy&"+"id="+_data,
             success:function(_json){
                 var json = jQuery.parseJSON(_json);
+                console.log(json, 'json')
                 if(json.ack == "Success"){                   
                     var imgtodrag = $(_IB).eq(0);
                     var cart = $('.CardWrap');
