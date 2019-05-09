@@ -210,11 +210,11 @@ $(document).ready(function(){
         console.log(_data, 'data')
         var _IB = '#IB' + _data;
         $.ajax({
-            url: "https://georgsby.github.io/gastro-bar/salatyi/",
+            url: "http://lionfood.blackandwhite.com.ua/salatyi/",
             data:"ajax=buy&"+"id="+_data,
-            success:function(data){
-                console.log(data, 'data')
-                var json = jQuery.parseJSON(data);
+            success:function(_json){
+                console.log(_json, '_json')
+                var json = jQuery.parseJSON(_json);
                 console.log(json, 'json')
                 if(json.ack == "Success"){                   
                     var imgtodrag = $(_IB).eq(0);
