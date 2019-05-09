@@ -214,7 +214,7 @@ $(document).ready(function(){
             data:"ajax=buy&"+"id="+_data,
             success:function(data){
                 console.log(data, 'data')
-                var json = jQuery.parseJSON(_json.toString);
+                var json = jQuery.parseJSON(data);
                 console.log(json, 'json')
                 if(json.ack == "Success"){                   
                     var imgtodrag = $(_IB).eq(0);
