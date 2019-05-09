@@ -212,9 +212,9 @@ $(document).ready(function(){
         $.ajax({
             url: "https://georgsby.github.io/gastro-bar/salatyi/",
             data:"ajax=buy&"+"id="+_data,
-            success:function(_json){
-                console.log(_json, '_json')
-                var json = jQuery.parseJSON(_json.toString());
+            success:function(data){
+                console.log(data, 'data')
+                var json = jQuery.parseJSON(_json.toString);
                 console.log(json, 'json')
                 if(json.ack == "Success"){                   
                     var imgtodrag = $(_IB).eq(0);
